@@ -5,24 +5,16 @@
 :root {
   --color-background: #242424;
   --font-family: 'Inter', sans-serif;
-  --color-text: #fff;
+  --color-text: #000000;
 }
 
 
 
-
-
-/* Establecer fondo */
 body {
   background-color: var(--color-background);
-}
-
-/* Utilizar la tipografía */
-body {
   font-family: var(--font-family);
-}
-
-/* Establecer color de texto */
-body {
   color: var(--color-text);
 }
+
+
+

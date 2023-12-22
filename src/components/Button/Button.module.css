@@ -1,0 +1,10 @@
+
+.btn{
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 6px 22px;
+    color: white;
+    font-size: 0.8rem;
+    /* box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2); */
+}

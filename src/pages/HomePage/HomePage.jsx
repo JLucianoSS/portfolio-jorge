@@ -1,9 +1,20 @@
 
 
-import React from 'react'
+import style from './HomePage.module.css'
 
 export const HomePage = () => {
   return (
-    <div>Home</div>
+    <>
+
+      <div className={style.containerHome}>
+        <h3>Hola 👋, </h3>
+        <p className='mt-4 text-body-secondary'>Soy lorem ipsum dolor sit, amet consectetur adipisicing elit. Id explicabo omnis nam error ex! Provident, quae vel odio tempore possimus non a? Quibusdam soluta, incidunt aliquid adipisci nobis explicabo earum.
+        
+        </p>
+        
+      </div>
+      
+    
+    </>
   )
 }
