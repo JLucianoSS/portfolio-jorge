@@ -1,7 +1,7 @@
 
 
 import { AppRouter } from "./router/AppRouter";
-import './app.css'
+import './styles/app.css'
 import { MyProfile, NavBar } from "./components";
 
 

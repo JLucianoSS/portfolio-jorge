@@ -1,0 +1,42 @@
+
+
+.containerTechs{
+    margin-top: 15px;
+}
+
+.img{
+    width: 3rem;
+    margin-right: 10px;
+}
+
+
+/* Estilos para el contenedor de tooltips */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilos para el texto del tooltip */
+  .tooltip::before {
+    content: attr(data-tip);
+    position: absolute;
+    background-color: #BD34FE;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    left: 60%; /* Centra el tooltip horizontalmente */
+    transform: translateX(-50%); /* Centra el tooltip horizontalmente */
+    top: calc(100% - 5px); /* Coloca el tooltip justo debajo del elemento */
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 10px;
+  
+    white-space: nowrap; /* Evita el salto de línea */
+    max-width: 150px; /* Ajusta el ancho máximo del tooltip */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es muy largo */
+  }
+  
+  .tooltip:hover::before {
+    opacity: 1;
+  }

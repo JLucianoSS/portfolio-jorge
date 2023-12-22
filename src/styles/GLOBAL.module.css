@@ -1,0 +1,38 @@
+
+
+/* VARIABLES Y ESTILOS GLOBALES */
+
+/* variables */
+:root {
+    --color-background: #242424;
+    --font-family: 'Inter', sans-serif;
+    --color-text: #000000;
+    --color-text2: #ffff;
+    --color-text3: #BD34FE;
+
+}
+
+
+/* estilos */
+.textTitleA{
+    color: var(--color-text2);
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+.textTitleB{
+    color: var(--color-text);
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+.textTitleC{
+    color: var(--color-text3);
+    font-size: 1.8rem;
+
+}
+
+.subtitleA{
+    color: var(--color-text2);
+    font-size: 13px;
+}
