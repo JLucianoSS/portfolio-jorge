@@ -1,0 +1,17 @@
+/* styles.css */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas de igual ancho */
+    grid-template-rows: repeat(2, auto); /* Dos filas de altura automática */
+    gap: 10px; /* Espacio entre las celdas */
+    justify-content: center; /* Centrar horizontalmente las celdas */
+    align-items: center; /* Centrar verticalmente las celdas */
+    margin-top: 2rem;
+  }
+  
+  .grid-item {
+    background-color: #ddd; /* Color de fondo de las celdas */
+    padding: 80px; /* Espaciado interior de las celdas */
+    text-align: center; /* Alineación del texto en el centro */
+  }

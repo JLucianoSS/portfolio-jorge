@@ -6,10 +6,11 @@ export const HomePage = () => {
     <div className={style.containerHome}>
       <h3 className={global.textTitleB}>Hola 👋, </h3>
       <p className="mt-4 text-body-secondary">
-        Soy lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-        explicabo omnis nam error ex! Provident, quae vel odio tempore possimus
-        non a? Quibusdam soluta, incidunt aliquid adipisci nobis explicabo
-        earum.
+        Soy un Bachiller en Ingeniería Informática con experiencia en desarrollo
+        web, especializado en WordPress y tecnologías modernas, con
+        participación clave en la creación exitosa de un sistema llamado Food
+        Express, buscando ampliar habilidades hacia el desarrollo móvil y aportar a
+        equipos innovadores.
       </p>
     </div>
   );

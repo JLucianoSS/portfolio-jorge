@@ -20,7 +20,7 @@ export const NavBar = () => {
           <IoPersonSharp size={25} />
         </NavLink>
       </div>
-      <div className={style.tooltip} data-tip="Experiencia">
+      <div className={style.tooltip} data-tip="Curriculum">
         <NavLink className={`${style.link} ${location.pathname === "/experience" && style.active}`} to="/experience">
           <FaGraduationCap size={25} />
         </NavLink>

@@ -1,0 +1,77 @@
+/* TimelineEvent.module.css */
+
+.event {
+  /* background: gray; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+.date {
+  font-size: 13px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid #68138f;
+  position: relative;
+  left: -5px;
+  top: 5px;
+}
+
+.borderdot{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #be34fe54;
+  position: relative;
+  left: -3px;
+  top: -3px;
+
+}
+
+.line {
+  width: 1px;
+  height: 100px;
+  background-color: black;
+  margin: 0 30px; 
+  position: relative;
+
+}
+
+.left {
+  /* background: blue; */
+  flex: 0 0 auto;
+  text-align: right;
+  width: 200px;
+}
+
+.right {
+  flex: 1;
+}
+
+.place {
+  font-size: 13px;
+  /* font-style: italic; */
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: rgb(73, 73, 73);
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-bottom: 20px;
+}

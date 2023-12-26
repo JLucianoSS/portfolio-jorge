@@ -6,3 +6,7 @@ export { MyProfile } from "./MyProfile/MyProfile";
 export { MayLnGit } from "./MyLnGit/MayLnGit";
 export { Button } from "./Button/Button";
 export { Techs } from "./Techs/Techs";
+export { TimelineEvent } from "./TimelineEvent/TimelineEvent";
+export { Form } from "./Form/Form";
+export { MoreInfo } from "./MoreInfo/MoreInfo";
+

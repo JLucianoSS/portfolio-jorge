@@ -1,0 +1,33 @@
+
+
+.containerMoreInfo{
+    /* background: rebeccapurple; */
+    /* padding-right: 2rem; */
+    padding-left: 1rem;
+    width: 30%;
+}
+
+.containerCards{
+    /* background: white;  */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cardd {
+    /* background: #BD34FE; */
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 10px;
+    word-wrap: break-word; /* Opción 1: Para navegadores antiguos */
+    overflow-wrap: break-word; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mapContainer{
+    height: 200px
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
