@@ -9,4 +9,5 @@ export { Techs } from "./Techs/Techs";
 export { TimelineEvent } from "./TimelineEvent/TimelineEvent";
 export { Form } from "./Form/Form";
 export { MoreInfo } from "./MoreInfo/MoreInfo";
+export { Card } from "./Card/Card";
 

@@ -5,20 +5,22 @@
 
 } */
 
-.info1{
-    margin-top: 1.8rem;
-    display: flex;
-    
-    
-}
-
 .parrafo{
     text-align: justify;
-    width: 70%;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+.parrafo2{
+    text-align: justify;
+    margin-top: 2rem;
 }
 
-.datos{
-    /* background: red; */
-    margin-left: 3rem;
-    width: 30%;
+/* .aboutme{
+
 }
+
+.myTechs{
+   
+
+} */
+

@@ -12,7 +12,9 @@ export const MyProfile = () => {
       <div className={style.profile}>
           <img className={style.img} src="https://i.pinimg.com/736x/df/1c/08/df1c0858bb97725d4156994406801661.jpg" alt="my-profile" />
           <span className={`mt-3 ${global.textTitleA}`} >Jorge Luciano</span>
-          <span className={global.subtitleA}>Desarrollador Full Stack</span>
+          <span className={global.subtitleC}>Desarrollador Full Stack</span>
+          <span className={global.subtitleA}><b>Edad: </b> 27 años</span>
+          <span className={global.subtitleA}><b>Pais: </b>Perú</span>
           <MayLnGit/>
       </div>
 

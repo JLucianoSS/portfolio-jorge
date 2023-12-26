@@ -19,7 +19,7 @@ export const Techs = () => {
       </div>
       <div className={style.tooltip} data-tip="bootstrap">
         <img
-          style={{ width: "3.5rem", height: "3rem", marginRight: "10px" }}
+          className={style.img2}
           src={bootstrap}
           alt="bootstrap"
         />

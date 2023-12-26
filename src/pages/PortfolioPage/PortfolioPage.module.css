@@ -11,7 +11,7 @@
   }
   
   .grid-item {
-    background-color: #ddd; /* Color de fondo de las celdas */
-    padding: 80px; /* Espaciado interior de las celdas */
+    /* background-color: #ddd; */
+    
     text-align: center; /* Alineación del texto en el centro */
   }

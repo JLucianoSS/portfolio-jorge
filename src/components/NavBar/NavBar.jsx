@@ -10,11 +10,11 @@ export const NavBar = () => {
   const location = useLocation();
   return (
     <div className={style.containerNav}>
-      <div className={style.tooltip} data-tip="Inicio">
+      {/* <div className={style.tooltip} data-tip="Inicio">
         <NavLink className={`${style.link} ${location.pathname === "/" && style.active}`} to="/">
           <IoHomeSharp size={25} />
         </NavLink>
-      </div>
+      </div> */}
       <div className={style.tooltip} data-tip="Sobre mí">
         <NavLink className={`${style.link} ${location.pathname === "/about-me" && style.active}`} to="/about-me">
           <IoPersonSharp size={25} />
