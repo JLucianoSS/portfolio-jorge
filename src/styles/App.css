@@ -20,8 +20,8 @@
     align-items: start;
     height: 90vh;
     width: 100%;
-    margin-left: 10rem;
-    margin-right: 5rem;
+    margin-left: 6rem;
+    margin-right: 3rem;
 }
 
 /* CARD COMO TAL */
@@ -58,14 +58,13 @@
 
 /* Estilos para pantallas de escritorio estándar */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .containerCard {
-        margin-left: 6rem;
-        margin-right: 3rem;
+    .cardd {
+        flex-direction: column;    
     }
     
 }
 
 /* Estilos para pantallas de escritorio grandes */
-@media (min-width: 1200px) {
-/* Estilos específicos para esta resolución */
+@media (max-width: 1200px) {
+  
 }
