@@ -9,7 +9,7 @@ export const Card = ({img="",description="",title="Sin titulo",visit}) => {
       <div className="card-body">
         <h5>{title}</h5>
         <span className={style.parrafo}>{description}</span>
-        <div className="mt-3" style={{display:"flex"}}>
+        <div className={`mt-3 ${style.button}`}>
             <ButtonA nameButton="Visitar" redirectUrl={visit} />
         </div>
       </div>

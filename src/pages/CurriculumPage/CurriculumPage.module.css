@@ -1,6 +1,19 @@
-
+.container{
+    
+}
 
 .containerExp{
     /* background-color: yellow; */
     margin-top: 2rem;
 }
+
+
+
+
+@media (max-width: 1099.99px) {
+    .container{
+      padding: 3rem;
+    }
+  
+  }
+  

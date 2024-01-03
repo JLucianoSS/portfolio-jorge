@@ -15,12 +15,9 @@
 @media (max-width: 1099.98px) {
     .containerContent{
         width: 100%;
-        padding: 3rem;
-        padding-top: 2rem;
+        padding: 0;
         padding-bottom: 8rem;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-
-      
-  }
+}

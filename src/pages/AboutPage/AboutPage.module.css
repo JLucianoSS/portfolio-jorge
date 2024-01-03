@@ -1,9 +1,11 @@
 
-/* 
 .containerAbout{
+    width: 100%; /* Ancho de ejemplo */
+    height: 100%; /* Altura de ejemplo */
+    overflow-y: auto; /* Añade una barra de desplazamiento vertical cuando sea necesario */
+    /* Otros estilos para tu contenedor si los tienes */
 
-
-} */
+}
 
 .parrafo{
     text-align: justify;
@@ -16,22 +18,36 @@
 
 }
 
-/* .aboutme{
-
+.padding{
+    margin: 0;
+    padding: 2rem 3rem;
+    
 }
 
-.myTechs{
-   
-
-} */
+.aboutme{
+    padding: 0 3rem;
+}
 
 
 
 .showResponsive{
     display: inline;
-    max-width: 1080px;
+    width: 100%;
 }
 
+
+.techs{
+    padding: 0 3rem;
+}
+.head{
+    /* background-color: red; */
+    margin: 0;
+}
+
+.enfasis{
+    color: #BD34FE;
+    font-weight: bold;
+}
 
 
  /* RESPONSIVE */
@@ -39,7 +55,19 @@
     .showResponsive{
         display: none;
     }
-    
-    
-      
+
+  }
+ @media (max-width: 1099.99px) {
+    .head{
+        padding: 2rem 3rem;
+        background: #f0f0f0;
+        font-weight: bold;
+        color: #464646;
+        
+    }
+
+    .im{
+        display: none;
+    }
+
   }

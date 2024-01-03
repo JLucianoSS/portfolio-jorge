@@ -1,6 +1,8 @@
 import style from "./CurriculumPage.module.css";
 import global from "../../styles/GLOBAL.module.css";
 import { TimelineEvent } from "../../components";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export const CurriculumPage = () => {
   const exp = [
@@ -29,8 +31,14 @@ export const CurriculumPage = () => {
     },
   ];
 
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
-    <div className="">
+    <div className={style.container}>
       <h3 className={global.textTitleB}>Experiencia</h3>
 
  

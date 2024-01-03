@@ -3,3 +3,10 @@
 .parrafo{
     font-size: 12px;
 }
+
+.button{
+    /* background: red; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

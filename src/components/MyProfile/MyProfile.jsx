@@ -23,7 +23,7 @@ export const MyProfile = () => {
             <span className={global.subtitleA}><b>Pais: </b>Perú</span>
             <MayLnGit/>
         </div>
-        <Button/>
+        <div className={style.btn}><Button/></div>
         <div className={style.copyright}>
           <span className={global.subtitleA}>© 2024 Jorge Luciano </span>
         </div>

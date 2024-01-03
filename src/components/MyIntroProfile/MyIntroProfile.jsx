@@ -18,7 +18,7 @@ export const MyIntroProfile = () => {
 
         <div className={style.info}>
             <span className={`${global.subtitleC} ${style.span}`}>
-              Desarrollador Full Stack
+              Soy Desarrollador Full Stack
             </span>
             <span className={global.subtitleA}>
               <b>Edad: </b> 27 años

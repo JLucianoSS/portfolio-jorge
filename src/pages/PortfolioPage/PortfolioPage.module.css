@@ -26,6 +26,10 @@
     gap: 20px; /* Espacio entre las celdas */
 
   }
+
+  .container {
+    padding: 3rem;
+  }
     
 }
 

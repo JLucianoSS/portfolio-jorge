@@ -30,11 +30,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     
     }.contactForm {
     width: 100%;
   }
+  
 }
+
+@media (max-width: 1099.99px) {
+  .container{
+    padding: 3rem;
+  }
+
+}
+
 
     
 
