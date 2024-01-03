@@ -1,12 +1,15 @@
 import style from "./AboutPage.module.css";
 import global from "../../styles/GLOBAL.module.css";
-import { Techs } from "../../components";
+import { MyIntroProfile, Techs } from "../../components";
 
 export const AboutPage = () => {
   return (
     <div className={style.containerAbout}>
       <div className={style.containerHome}>
         <h3 className={global.textTitleB}>Hola 👋, </h3>
+         <div className={`${style.showResponsive} ${style.fullWidth}`}>
+          <MyIntroProfile/>
+        </div>
         <p className={style.parrafo2}>
           Soy un Bachiller en Ingeniería Informática con experiencia en
           desarrollo web, especializado en WordPress y tecnologías modernas, con

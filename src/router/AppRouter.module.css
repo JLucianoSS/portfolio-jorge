@@ -9,3 +9,18 @@
     border-bottom-right-radius: 2rem;
 }
 
+
+
+/* RESPONSIVE */
+@media (max-width: 1099.98px) {
+    .containerContent{
+        width: 100%;
+        padding: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+      
+  }

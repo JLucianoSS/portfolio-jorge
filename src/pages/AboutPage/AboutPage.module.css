@@ -25,3 +25,21 @@
 
 } */
 
+
+
+.showResponsive{
+    display: inline;
+    max-width: 1080px;
+}
+
+
+
+ /* RESPONSIVE */
+ @media (min-width: 1099.98px) {
+    .showResponsive{
+        display: none;
+    }
+    
+    
+      
+  }

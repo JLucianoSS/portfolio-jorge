@@ -4,6 +4,7 @@
 /* Variables por defecto globales */
 :root {
   --color-background: #242424;
+  --color-background2: white;
   --font-family: 'Inter', sans-serif;
   --color-text: #000000;
 }
@@ -17,4 +18,11 @@ body {
 }
 
 
+/* Visto en responsive */
+@media (max-width: 1099.98px) {
+  body {
+    background-color: var(--color-background2);
+  }
+
+}
 

@@ -16,23 +16,27 @@ export const NavBar = () => {
         </NavLink>
       </div> */}
       <div className={style.tooltip} data-tip="Sobre mí">
-        <NavLink className={`${style.link} ${location.pathname === "/about-me" && style.active}`} to="/about-me">
+        <NavLink className={`${style.link} ${location.pathname === "/" && style.active}`} to="/">
           <IoPersonSharp size={25} />
+          <span className={style.showResponsive}>Sobre mí</span>
         </NavLink>
       </div>
-      <div className={style.tooltip} data-tip="Curriculum">
+      <div className={style.tooltip} data-tip="Experiencia">
         <NavLink className={`${style.link} ${location.pathname === "/experience" && style.active}`} to="/experience">
           <FaGraduationCap size={25} />
+          <span className={style.showResponsive}>Experiencia</span>
         </NavLink>
       </div>
       <div className={style.tooltip} data-tip="Proyectos">
         <NavLink className={`${style.link} ${location.pathname === "/portfolio" && style.active}`} to="/portfolio">
           <PiBagFill size={25} />
+          <span className={style.showResponsive}>Proyectos</span>
         </NavLink>
       </div>
       <div className={style.tooltip} data-tip="Contáctame">
         <NavLink className={`${style.link} ${location.pathname === "/contact" && style.active}`} to="/contact">
           <IoIosMail size={25} />
+          <span className={style.showResponsive}>Contáctame</span>
         </NavLink>
       </div>
     </div>

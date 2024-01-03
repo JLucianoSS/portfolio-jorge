@@ -12,6 +12,7 @@ export const PortfolioPage = () => {
         <div className={styles["grid-item"]}>
           <Card 
             title="Food Express App" 
+            description="Tecnoligías usadas: React, Redux, Bootstrap, Node.js, Express, Sequelize y PostgreSQL"
             img={pf} 
             visit="https://foodexpress-alpha.vercel.app/" 
 
@@ -20,6 +21,7 @@ export const PortfolioPage = () => {
         <div className={styles["grid-item"]}>
           <Card 
             title="Pokemon App" 
+            description="Tecnoligías usadas: React, Redux, Node.js, Express, Sequelize y PostgreSQL"
             img={pi} 
             visit="https://pokemon-pi-jorge.netlify.app" 
           />

@@ -1,0 +1,28 @@
+
+
+.btn{
+    background-color: #BD34FE;
+    border: transparent;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15%;
+    margin-top: 2.2rem;
+    position: absolute;
+    right: 6vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+.btnClose{
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-size: 40px;
+}

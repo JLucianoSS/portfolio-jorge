@@ -1,6 +1,7 @@
 /* ContactForm.module.css */
 
 .contactForm {
+  background-color: c;
     width: 70%;
     padding: 20px;
     border-radius: 10px;
@@ -52,3 +53,23 @@
     color: white;
     /* border-color: #BD34FE; */
   }
+
+
+
+  /* RESPONSIVE */
+
+  /* Estilos para tabletas */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .contactForm {
+      width: 100%;
+    }
+  }
+
+
+@media (max-width: 575.98px) {
+  .contactForm {
+    width: 100%;
+  }
+}
+
+    

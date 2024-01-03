@@ -33,8 +33,8 @@
     padding: 5px;
     border-radius: 4px;
     left: 60%; /* Centra el tooltip horizontalmente */
-    transform: translateX(-50%); /* Centra el tooltip horizontalmente */
-    top: calc(100% - 5px); /* Coloca el tooltip justo debajo del elemento */
+    transform: translateX(-80%); /* Centra el tooltip horizontalmente */
+    top: calc(100% - 25px); /* Coloca el tooltip justo debajo del elemento */
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 10px;
@@ -48,3 +48,12 @@
   .tooltip:hover::before {
     opacity: 1;
   }
+
+
+  /* RESPONSIVE */
+@media (max-width: 1099.98px) {
+  
+  
+
+    
+}

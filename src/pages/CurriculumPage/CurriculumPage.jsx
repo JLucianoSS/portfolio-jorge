@@ -47,7 +47,7 @@ export const CurriculumPage = () => {
         ))}
       </div>
 
-      <h5 className="mt-2">
+      <h5 className="mt-3 text-center">
         Formación Académica: 
       </h5>
       <center className="mt-3">

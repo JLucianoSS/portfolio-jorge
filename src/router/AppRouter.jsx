@@ -7,9 +7,10 @@ import style from "./AppRouter.module.css"
 export const AppRouter = () => {
   return (
     <div className={style.containerContent}>
+      
       <Routes>
-          <Route path='/' element={<HomePage/>}/>
-          <Route path='/about-me' element={<AboutPage/>}/>
+          {/* <Route path='/' element={<HomePage/>}/> */}
+          <Route path='/' element={<AboutPage/>}/>
           <Route path='/experience' element={<CurriculumPage/>}/>
           <Route path='/portfolio' element={<PortfolioPage/>}/>
           <Route path='/contact' element={<ContactPage/>}/>

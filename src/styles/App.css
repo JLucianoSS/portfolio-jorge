@@ -14,7 +14,7 @@
 
 /* CONTENEDOR DE LA CARD */
 .containerCard {
-    /* background: white; */
+    /* background: red; */
     display: flex;
     justify-content: center;
     align-items: start;
@@ -26,7 +26,7 @@
 
 /* CARD COMO TAL */
 .cardd{
-    /* background: blue; */
+    background: blue;
     display: flex;
     height: 100%;
     width: 100%;
@@ -39,32 +39,19 @@
 
 
 
-
-
-/* Estilos para teléfonos móviles pequeños (portrait mode) */
-@media (max-width: 575.98px) {
-/* Estilos específicos para esta resolución */
-}
-
-/* Estilos para teléfonos móviles (landscape mode) y tablets pequeñas */
-@media (min-width: 576px) and (max-width: 767.98px) {
-/* Estilos específicos para esta resolución */
-}
-
-/* Estilos para tablets y pantallas pequeñas de escritorio */
-@media (min-width: 768px) and (max-width: 991.98px) {
-/* Estilos específicos para esta resolución */
-}
-
 /* Estilos para pantallas de escritorio estándar */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .cardd {
-        flex-direction: column;    
+@media (max-width: 1099.98px) {
+    .containerApp {
+        height: auto;
+    }
+    .containerCard {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right:0;
+        height: auto;
+    }
+    .cardd {  
+        border-radius: 0;
     }
     
-}
-
-/* Estilos para pantallas de escritorio grandes */
-@media (max-width: 1200px) {
-  
 }

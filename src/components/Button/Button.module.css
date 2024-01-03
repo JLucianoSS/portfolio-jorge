@@ -16,3 +16,16 @@
     font-weight: 600;
     
 }
+
+
+
+
+  /* RESPONSIVE */
+  @media (max-width: 1099.98px) {
+    .btn{
+        padding: 5px 11px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+      
+  }
