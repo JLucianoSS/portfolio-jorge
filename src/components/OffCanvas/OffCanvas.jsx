@@ -5,7 +5,7 @@ import style from './Offcanvas.module.css'
 
 export const CustomOffcanvas = ({ id, title, children }) => {
   const offcanvasStyle = {
-    background: "#BD34FE"
+    background: "linear-gradient(to bottom, rgba(0, 0, 0, 1), #BD34FE)"
   };
 
   return (

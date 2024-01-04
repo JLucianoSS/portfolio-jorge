@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { MayLnGit,Button, CustomOffcanvas } from "../../components";
 import style from "./MyProfile.module.css";
 import global from "../../styles/GLOBAL.module.css";
+import me from '../../assets/dev.jpeg'
 
 
 
@@ -15,7 +16,7 @@ export const MyProfile = () => {
       <div className={`${style.containerProfile} ${style.hideResponsive}`}>
         <div className={style.profile}>
             <div className={style.head}>
-              <img className={style.img} src="https://i.pinimg.com/736x/df/1c/08/df1c0858bb97725d4156994406801661.jpg" alt="my-profile" />
+              <img className={style.img} src={me} alt="my-profile" />
               <span className={`mt-3 ${global.textTitleA}`} >Jorge Luciano</span>
             </div>
             <span className={`${global.subtitleC} ${style.span}`}>Desarrollador Full Stack</span>
@@ -37,7 +38,7 @@ export const MyProfile = () => {
               <div className={style.containerProfile}>
                 <div className={style.profile}>
                     <div className={style.head}>
-                      <img className={style.img} src="https://i.pinimg.com/736x/df/1c/08/df1c0858bb97725d4156994406801661.jpg" alt="my-profile" />
+                      <img className={style.img} src={me} alt="my-profile" />
                       <span className={`mt-3 ${global.textTitleA}`} >Jorge Luciano</span>
                     </div>
                     <span className={`${global.subtitleC} ${style.span}`}>Desarrollador Full Stack</span>

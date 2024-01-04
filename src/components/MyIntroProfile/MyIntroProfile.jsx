@@ -1,6 +1,7 @@
 import style from "./MyIntroProfile.module.css";
 import global from "../../styles/GLOBAL.module.css";
 import { MayLnGit, Button } from "../../components";
+import me from '../../assets/dev.jpeg'
 
 export const MyIntroProfile = () => {
   return (
@@ -11,7 +12,7 @@ export const MyIntroProfile = () => {
           <span className={`${global.textTitleA}`}>Jorge Luciano</span>
           <img
             className={style.img}
-            src="https://i.pinimg.com/736x/df/1c/08/df1c0858bb97725d4156994406801661.jpg"
+            src={me}
             alt="my-profile"
           />
         </div>
