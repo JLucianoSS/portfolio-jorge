@@ -1,10 +1,11 @@
 
-import style from './Button.module.css'
+import style from './Button.module.css';
+
 
 export const Button = () => {
   return (
     <>
-        <button className={style.btn}>Descargar CV</button>
+        <a href="/jorge-cv.pdf"><button className={style.btn}>Descargar CV</button></a>
     </>
   )
 }
