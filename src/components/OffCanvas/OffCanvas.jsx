@@ -1,7 +1,7 @@
 
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoReturnUpBackSharp } from "react-icons/io5";
-import style from './Offcanvas.module.css'
+import style from './OffCanvas.module.css'
 
 export const CustomOffcanvas = ({ id, title, children }) => {
   const offcanvasStyle = {
