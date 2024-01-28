@@ -29,9 +29,9 @@ export const PortfolioPage = () => {
         <div className={styles["grid-item"]}>
           <Card 
             title="Pokemon App" 
-            description="Tecnoligías usadas: React, Redux, Node.js, Express, Sequelize y PostgreSQL"
+            description="Tecnoligías usadas: React, Redux, Sass, Bootstrap, Node.js, Express, Sequelize, y PostgreSQL"
             img={pi} 
-            visit="https://pokemon-pi-jorge.netlify.app" 
+            visit="https://pokemon-app-jorge.vercel.app" 
           />
         </div>
       </div>
