@@ -28,7 +28,13 @@ export const AboutPage = () => {
             aportar a equipos innovadores.
           </p>
         </div>
-        <div className="mt-1">
+        <div className={` ${style.techs}`}>
+          <h4 className={global.textTitleB}>
+            Tecnologías <span className={global.textTitleC}>que domino</span>
+          </h4>
+          <Techs />
+        </div>
+        <div className="mt-3">
           <div className={style.aboutme}>
             <h4 className={global.textTitleB}>
               Sobre <span className={global.textTitleC}>Mi</span>
@@ -41,12 +47,7 @@ export const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className={`mt-5 ${style.techs}`}>
-          <h4 className={global.textTitleB}>
-            Tecnologías <span className={global.textTitleC}>que domino</span>
-          </h4>
-          <Techs />
-        </div>
+        
       </div>
     </>
   );

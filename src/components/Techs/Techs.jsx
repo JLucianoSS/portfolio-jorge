@@ -7,6 +7,8 @@ import react from "../../assets/react.png";
 import redux from "../../assets/redux.png";
 import nodejs from "../../assets/nodejs.png";
 import posgres from "../../assets/posgres.png";
+import typesccript from "../../assets/typescript.png";
+import sass from "../../assets/sass.png";
 
 export const Techs = () => {
   return (
@@ -24,8 +26,14 @@ export const Techs = () => {
           alt="bootstrap"
         />
       </div>
+      <div className={style.tooltip} data-tip="sass">
+        <img className={style.img} src={sass} alt="js" />
+      </div>
       <div className={style.tooltip} data-tip="javascript">
         <img className={style.img} src={js} alt="js" />
+      </div>
+      <div className={style.tooltip} data-tip="typescript">
+        <img className={style.img} src={typesccript} alt="js" />
       </div>
       <div className={style.tooltip} data-tip="react">
         <img className={style.img} src={react} alt="react" />
