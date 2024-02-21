@@ -9,6 +9,8 @@ import nodejs from "../../assets/nodejs.png";
 import posgres from "../../assets/posgres.png";
 import typesccript from "../../assets/typescript.png";
 import sass from "../../assets/sass.png";
+import tailwind from "../../assets/tailwind.png";
+
 
 export const Techs = () => {
   return (
@@ -28,6 +30,9 @@ export const Techs = () => {
       </div>
       <div className={style.tooltip} data-tip="sass">
         <img className={style.img} src={sass} alt="js" />
+      </div>
+      <div className={style.tooltip} data-tip="tailwind">
+        <img className={style.img} src={tailwind} alt="tailwind" />
       </div>
       <div className={style.tooltip} data-tip="javascript">
         <img className={style.img} src={js} alt="js" />

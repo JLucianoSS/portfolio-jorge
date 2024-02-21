@@ -9,4 +9,6 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    gap: 0.3rem;
 }
+

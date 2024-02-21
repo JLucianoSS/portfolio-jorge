@@ -23,6 +23,7 @@ export const PortfolioPage = () => {
             description="Tecnoligías usadas: React, Redux, Bootstrap, Node.js, Express, Sequelize y PostgreSQL"
             img={pf} 
             visit="https://foodexpress-alpha.vercel.app/" 
+            video="https://www.youtube.com/watch?v=ME_E3ZCshj0"
 
           />
         </div>
